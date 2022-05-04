@@ -1,0 +1,3017 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "user_name": "tien",
+      "user_email": "tien@gmail.com",
+      "user_password": "1234"
+    },
+    {
+      "user_name": "Nguyễn Việt Tiến",
+      "user_email": "tientien@gmail.com",
+      "user_password": "1234",
+      "id": 2
+    },
+    {
+      "user_name": "Tiến Việt Nguyễn",
+      "user_email": "tien1@gmail.com",
+      "user_password": "1234",
+      "id": 3
+    },
+    {
+      "user_name": "Tiến Việt Nguyễn",
+      "user_email": "tien12@gmail.com",
+      "user_password": "1234",
+      "id": 4
+    },
+    {
+      "user_name": "Tiến Tiến Tiến",
+      "user_email": "tien123@gmail.com",
+      "user_password": "1234",
+      "id": 5
+    },
+    {
+      "user_name": "Tiến Nguyễn",
+      "user_email": "tien125@gmail.com",
+      "user_password": "1234",
+      "id": 6
+    }
+  ],
+  "topics": [
+    {
+      "title": "COMP 125 - Kiến thức cơ bản về WORD",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAD5GzLci-goNT5-mahGt7LzKW2nFVxXjSfQ&usqp=CAU",
+      "description": "Microsoft Word là chương trình soạn thảo, xử lý văn bản phổ biến với tất cả mọi người dùng máy tính trên toàn thế giới, được phát triển bởi Microsoft và thuộc bộ ứng dụng Microsoft Office. Thông qua các công cụ định dạng Microsoft Word giúp bạn tạo ra các tài liệu có chất lượng chuyên nghiệp một cách hiệu quả. Bên cạnh đó, Word còn bao gồm các công cụ chỉnh sửa và sửa đổi giúp bạn có thể cộng tác với mọi người một cách dễ dàng.",
+      "free": "1",
+      "exam_id": "WORD"
+    },
+    {
+      "title": "COMP 521 - Kiến thức cơ bản về JAVASCRIPT",
+      "thumbnail": "https://cafedev.vn/wp-content/uploads/2019/12/cafedev_javascript.png",
+      "description": "JavaScript là ngôn ngữ lập trình phổ biến nhất trên thế giới trong suốt 20 năm qua. JavaScript có thể học nhanh và dễ dàng áp dụng cho nhiều mục đích khác nhau, từ việc cải thiện tính năng của website đến việc chạy game và tạo phần mềm nền web. Hơn nữa, có hàng ngàn mẫu template JavaScript và ứng dụng ngoài kia, nhờ vào sự cống hiến của cộng đồng, đặc biệt là Github.",
+      "free": "0",
+      "exam_id": "JS"
+    },
+    {
+      "title": "COMP 129 - Kiến thức cơ bản về Máy tính và Mạng máy tính",
+      "thumbnail": "https://www.semtek.com.vn/wp-content/uploads/2021/04/mang-may-tinh.jpg",
+      "description": "Mạng máy tính là một hệ thống gồm nhiều máy tính và các thiết bị được kết nối với nhau bởi đường truyền vật lý theo một kiến trúc (Network Architecture) nào đó nhằm thu thập, trao đổi dữ liệu và chia sẽ tài nguyên cho nhiều người sử dụng. Các máy tính được kết nối với nhau có thể trong cùng một phòng, một tòa nhà, một thành phố hoặc trên phạm vi toàn cầu.",
+      "free": "0",
+      "exam_id": "MMT"
+    }
+  ],
+  "questions": [
+    {
+      "question_id": "1",
+      "question": "Trong MS Word, phím nào để xoá ký tự đúng trước con trỏ?",
+      "answer": {
+        "op1": "Page Down",
+        "op2": "Delete",
+        "op3": "Backspace",
+        "op4": "Insert",
+        "ans": "op3"
+      },
+      "topic_id": 1,
+      "exam_id": "WORD"
+    },
+    {
+      "question_id": "2",
+      "question": "Trong MS Word, phím nào để xoá ký tự đúng sau con trỏ?",
+      "answer": {
+        "op1": "Page Down",
+        "op2": "Delete",
+        "op3": "Backspace",
+        "op4": "Insert",
+        "ans": "op2"
+      },
+      "topic_id": 1,
+      "exam_id": "WORD"
+    },
+    {
+      "question_id": "3",
+      "question": "Trong MS Word, phím nào để tạo khoảng trống?",
+      "answer": {
+        "op1": "Space",
+        "op2": "Delete",
+        "op3": "Backspace",
+        "op4": "Insert",
+        "ans": "op1"
+      },
+      "topic_id": 1,
+      "exam_id": "WORD"
+    },
+    {
+      "question_id": "4",
+      "question": "Trong MS Word, muốn chọn nhiều hình vẽ đồng thời ta thực hiện?",
+      "answer": {
+        "op1": "Nhấn chuột trái ở vùng trống và rê ngang qua các đối tượng cần chọn",
+        "op2": "Nhấn giữ phím Ctrl và Nhấn chuột phải lên các đối tượng muốn chọn",
+        "op3": "Nhấn giữ phím Alt và Nhấn chuột trái lên các đối tượng muốn chọn",
+        "op4": "Vào menu Edit, chọn Select All AutoShape.",
+        "ans": "op1"
+      },
+      "topic_id": 1,
+      "exam_id": "WORD"
+    },
+    {
+      "question_id": "5",
+      "question": "Trong Microsoft Word, Style là",
+      "answer": {
+        "op1": "Tạo hình cho các chữ kiểu trong khi soạn thảo",
+        "op2": "Một tập hợp các định dạng lưu trữ thành một tên gọi riêng và dễ dàng áp đặt lên các đối tượng khác bằng một thao tác duy nhất",
+        "op3": "Một thành phần định dạng chỉ dùng trong trang Web",
+        "op4": "Một loại tài liệu đặc biệt",
+        "ans": "op2"
+      },
+      "topic_id": 1,
+      "exam_id": "WORD"
+    },
+    {
+      "question_id": "6",
+      "question": "Trong MS Word, công dụng của tổ hợp phím Ctrl + C là gì?",
+      "answer": {
+        "op1": "Sao chép các nội dung đang lựa chọn vào trong bộ nhớ đệm",
+        "op2": "Phục hồi lại các thao tác đã làm trước đó",
+        "op3": "Dán tất cả các nội dung đã được sao chép trước đó vào vị trí con trỏ",
+        "op4": "Thực hiện canh lề giữa đoạn văn bản đó.",
+        "ans": "op1"
+      },
+      "topic_id": 1,
+      "exam_id": "WORD"
+    },
+    {
+      "question_id": "7",
+      "question": "Trong Word, muốn chèn các kí tự đặc biệt vào văn bản, ta thực hiện?",
+      "answer": {
+        "op1": "View – Symbol",
+        "op2": "Format – Symbol",
+        "op3": "Tools – Symbol",
+        "op4": "Insert – Symbol",
+        "ans": "op4"
+      },
+      "topic_id": 1,
+      "exam_id": "WORD"
+    },
+    {
+      "question_id": "8",
+      "question": "Trong Word, muốn lưu hồ sơ với một tên khác, ta thực hiện?",
+      "answer": {
+        "op1": "File – Save",
+        "op2": "File – Save As",
+        "op3": "Window – Save",
+        "op4": "Window – Save As",
+        "ans": "op2"
+      },
+      "topic_id": 1,
+      "exam_id": "WORD"
+    },
+    {
+      "question_id": "9",
+      "question": "Trong MS Word, công dụng của tổ hợp phím Ctrl + S là?",
+      "answer": {
+        "op1": "Xóa tệp văn bản",
+        "op2": "Chèn kí hiệu đặc biệt",
+        "op3": "Lưu tệp văn bản vào đĩa",
+        "op4": "Tạo tệp văn bản mới",
+        "ans": "op3"
+      },
+      "topic_id": 1,
+      "exam_id": "WORD"
+    },
+    {
+      "question_id": "10",
+      "question": "Phát biểu nào sau đây là đúng?",
+      "answer": {
+        "op1": "Tập tin được tạo ra bởi MS Word  khi lưu sẽ có đuôi mặc định là XLSX",
+        "op2": "Trong MS Word  ta không thể gõ tiếng Việt",
+        "op3": "MS Word  là một phần mềm tính toán",
+        "op4": "Mặc định mỗi khi khởi động MS Word đã có một văn bản trống",
+        "ans": "op4"
+      },
+      "topic_id": 1,
+      "exam_id": "WORD"
+    },
+    {
+      "question_id": "11",
+      "question": " Chức năng chính của Microft Word là gì?",
+      "answer": {
+        "op1": "Sọan thảo văn bản",
+        "op2": "Tạo các tập tin đồ họa",
+        "op3": "Chạy các chương trình ứng dụng khác.",
+        "op4": "Tính toán và lập bảng",
+        "ans": "op1"
+      },
+      "topic_id": 1,
+      "exam_id": "WORD"
+    },
+    {
+      "question_id": "12",
+      "question": "Đâu là định dạng file của MS Word ?",
+      "answer": {
+        "op1": ".exe",
+        "op2": ".docx",
+        "op3": ".ppt",
+        "op4": ".pdf",
+        "ans": "op2"
+      },
+      "topic_id": 1,
+      "exam_id": "WORD"
+    },
+    {
+      "question_id": "13",
+      "question": "Cách để khơi chạy chương trình MS Word?",
+      "answer": {
+        "op1": "Click đúp chuột vào biểu tượng MS Word",
+        "op2": "Nhấn chuột phải trên màn hình Desktop > New > Microsoft Word Document",
+        "op3": "Cả phương án 1 và 2 đều đúng",
+        "op4": "Cả phương án 1 và 2 đều sai.",
+        "ans": "op3"
+      },
+      "topic_id": 1,
+      "exam_id": "WORD"
+    },
+    {
+      "question_id": "14",
+      "question": "Trong Microsoft Word, để di chuyển con trỏ văn bản về cuối dòng hiện tại, ta dùng phím nào?",
+      "answer": {
+        "op1": "End",
+        "op2": "Home",
+        "op3": "Page Down",
+        "op4": "Page up",
+        "ans": "op1"
+      },
+      "topic_id": 1,
+      "exam_id": "WORD"
+    },
+    {
+      "question_id": "15",
+      "question": "Phím Tab trong Microsoft Word có chức năng gì?",
+      "answer": {
+        "op1": "Di chuyển con trỏ về đầu dòng",
+        "op2": "Xóa ký tự phía trước con trỏ",
+        "op3": "Lùi văn bản vào với một khoảng cách cố định",
+        "op4": "Chuyển con trỏ xuống phía dưới 1 trang",
+        "ans": "op3"
+      },
+      "topic_id": 1,
+      "exam_id": "WORD"
+    },
+    {
+      "question_id": "16",
+      "question": "Edit-Select all tương ứng với phím tắt nào?",
+      "answer": {
+        "op1": "Ctrl - A",
+        "op2": "Ctrl - L",
+        "op3": "Ctrl - K",
+        "op4": "A,C sai",
+        "ans": "op1"
+      },
+      "topic_id": 1,
+      "exam_id": "WORD"
+    },
+    {
+      "question_id": "17",
+      "question": "Một văn bản được soạn thảo trong chương trình Microsoft Word gọi là gì?",
+      "answer": {
+        "op1": "WorkBook",
+        "op2": "Wordsheet",
+        "op3": "Document",
+        "op4": "Text Document",
+        "ans": "op3"
+      },
+      "topic_id": 1,
+      "exam_id": "WORD"
+    },
+    {
+      "question_id": "18",
+      "question": "Khi đang soạn thảo văn bản Word, muốn đánh dấu lựa chọn một từ, ta thực hiện?",
+      "answer": {
+        "op1": "Nháy đúp chuột vào từ cần chọn",
+        "op2": "Bấm tổ hợp phím Ctrl + A",
+        "op3": "Nháy chuột vào từ cần chọn",
+        "op4": "Bấm phím Enter",
+        "ans": "op1"
+      },
+      "topic_id": 1,
+      "exam_id": "WORD"
+    },
+    {
+      "question_id": "19",
+      "question": "Bấm tổ hợp phím Ctrl + V trong Microsoft Word sẽ thực hiện chức năng gì?",
+      "answer": {
+        "op1": "Đưa đối tượng (văn bản, hình ảnh, bảng biểu,…) đang có trong Bộ nhớ đệm ra vị trí hiện tại",
+        "op2": "Sao chép đối tượng đang chọn vào trong Bộ nhớ đệm",
+        "op3": "Di chuyển đối tượng đang chọn vào trong Bộ nhớ đệm",
+        "op4": "Xóa đối tượng đang chọn và không đưa vào Bộ nhớ đệm",
+        "ans": "op1"
+      },
+      "topic_id": 1,
+      "exam_id": "WORD"
+    },
+    {
+      "question_id": "20",
+      "question": "Trong soạn thảo văn bản Word, công dụng của tổ hợp phím Ctrl + H là?",
+      "answer": {
+        "op1": "Tạo tệp văn bản mới",
+        "op2": "Chức năng thay thế trong soạn thảo",
+        "op3": "Định dạng chữ hoa",
+        "op4": "Lưu tệp văn bản vào đĩa",
+        "ans": "op2"
+      },
+      "topic_id": 1,
+      "exam_id": "WORD"
+    },
+    {
+      "question_id": "21",
+      "question": "Câu lệnh nào khai báo một biến trong JavaScript?",
+      "answer": {
+        "op1": "v carName;",
+        "op2": "variable carName;",
+        "op3": "var carName;",
+        "op4": "var 90Username;",
+        "ans": "op3"
+      },
+      "topic_id": 2,
+      "exam_id": "JS"
+    },
+    {
+      "question_id": "22",
+      "question": "JavaScript được bắt đầu bằng?",
+      "answer": {
+        "op1": "Tất cả các dạng trên",
+        "op2": "<java>....</java>",
+        "op3": "<Javascript>....<Javascript>",
+        "op4": "<script>....</script>",
+        "ans": "op4"
+      },
+      "topic_id": 2,
+      "exam_id": "JS"
+    },
+    {
+      "question_id": "23",
+      "question": "Câu lệnh break kết hợp với vòng lặp để làm gì?",
+      "answer": {
+        "op1": "Không thể kết hợp được",
+        "op2": "Nhảy đến một tập lệnh khác",
+        "op3": "Không có ý nghĩa gì trong vòng lặp",
+        "op4": "Ngưng vòng lặp nếu gặp lệnh này",
+        "ans": "op4"
+      },
+      "topic_id": 2,
+      "exam_id": "JS"
+    },
+    {
+      "question_id": "24",
+      "question": "Vòng lặp While là dạng vòng lặp?",
+      "answer": {
+        "op1": "Không xác định và kiểm tra điều kiện trước",
+        "op2": "Không xác định và kiểm tra điều kiện sau",
+        "op3": "Cả hai dạng trên",
+        "op4": "Không tôn tại dạng nào ở trên",
+        "ans": "op1"
+      },
+      "topic_id": 2,
+      "exam_id": "JS"
+    },
+    {
+      "question_id": "25",
+      "question": "Cách viết câu lệnh IF nào sau đây là đúng?",
+      "answer": {
+        "op1": "if i = 5",
+        "op2": "if i = 5 then",
+        "op3": "if i == 5 then",
+        "op4": "if (i == 5)",
+        "ans": "op4"
+      },
+      "topic_id": 2,
+      "exam_id": "JS"
+    },
+    {
+      "question_id": "26",
+      "question": "Hàm alert() dùng để làm gì?",
+      "answer": {
+        "op1": "Dùng để chuyển đổi số sang chữ",
+        "op2": "Dùng để hiển thị một thông báo nhập dữ liệu",
+        "op3": "Dùng để hiển thị một thông báo",
+        "op4": "Dùng để hiển thị một xác nhận Yes/No",
+        "ans": "op3"
+      },
+      "topic_id": 2,
+      "exam_id": "JS"
+    },
+    {
+      "question_id": "27",
+      "question": "Có những cách nào viết code JavaScript  để chạy trong trang web?",
+      "answer": {
+        "op1": "Viết trên một tệp riêng",
+        "op2": "Viết chung với HTML",
+        "op3": "Cả hai dạng viết tệp riêng hoặc viết trong trang HTML",
+        "op4": "Không thuộc dạng nào",
+        "ans": "op3"
+      },
+      "topic_id": 2,
+      "exam_id": "JS"
+    },
+    {
+      "question_id": "28",
+      "question": "JavaScript là ngôn ngữ dịch mã nguồn theo kiểu nào?",
+      "answer": {
+        "op1": "Không có dạng nào ở trên",
+        "op2": "Thông dịch",
+        "op3": "Biên dịch",
+        "op4": "Cả hai dạng biên dịch và thông dịch",
+        "ans": "op2"
+      },
+      "topic_id": 2,
+      "exam_id": "JS"
+    },
+    {
+      "question_id": "29",
+      "question": "JavaScript là ngôn ngữ xử lý ở đâu?",
+      "answer": {
+        "op1": "for ( biến = Giá trị đầu; Điều kiện; Giá trị tăng)",
+        "op2": "for ( biến = Giá trị đầu; Giá trị tăng; điều kiện)",
+        "op3": "for ( biến = Điều kiện; Giá trị tăng; Giá trị cuối)",
+        "op4": "Tất cả các dạng trên",
+        "ans": "op2"
+      },
+      "topic_id": 2,
+      "exam_id": "JS"
+    },
+    {
+      "question_id": "30",
+      "question": "Vòng lặp (Do.. while) là dạng vòng lặp?",
+      "answer": {
+        "op1": "Không xác định và xét điều kiện rồi mới lặp",
+        "op2": "Không xác định và lặp rồi mới xét điều kiện",
+        "op3": "Cả hai dạng trên",
+        "op4": "Không có dạng nào",
+        "ans": "op2"
+      },
+      "topic_id": 2,
+      "exam_id": "JS"
+    },
+    {
+      "question_id": "31",
+      "question": "Trong JavaScript sự kiện OnMouseOver xảy ra khi nào?",
+      "answer": {
+        "op1": "Khi kích chuột vào nút lệnh",
+        "op2": "Khi một đối tượng trong form mất focus",
+        "op3": "Khi một đối tượng trong form nhận focus",
+        "op4": "Khi di chuyển con chuột qua một đối tượng trong form",
+        "ans": "op4"
+      },
+      "topic_id": 2,
+      "exam_id": "JS"
+    },
+    {
+      "question_id": "32",
+      "question": "Trong JavaScript sự kiện OnUnload xảy ra khi nào?",
+      "answer": {
+        "op1": "Khi kích chuột",
+        "op2": "Khi kết thúc một chương trình",
+        "op3": "Khi bắt đầu chạy chương trình",
+        "op4": "Khi di chuyển chuột qua",
+        "ans": "op2"
+      },
+      "topic_id": 2,
+      "exam_id": "JS"
+    },
+    {
+      "question_id": "33",
+      "question": "Trong JavaScript sự kiện Onblur thực hiện khi nào?",
+      "answer": {
+        "op1": "Khi di chuyển chuột vào nút lệnh",
+        "op2": "Khi di chuyển con chuột qua form",
+        "op3": "Khi một đối tượng trong form nhận focus",
+        "op4": "Khi một đối tượng trong form mất focus",
+        "ans": "op4"
+      },
+      "topic_id": 2,
+      "exam_id": "JS"
+    },
+    {
+      "question_id": "34",
+      "question": "Cách nào tạo một hàm trong JavaScript?",
+      "answer": {
+        "op1": "func myFunction()",
+        "op2": "function myFunction()",
+        "op3": "function = myFunction()",
+        "op4": "function myFunction",
+        "ans": "op2"
+      },
+      "topic_id": 2,
+      "exam_id": "JS"
+    },
+    {
+      "question_id": "35",
+      "question": "Cách nào để làm tròn 7.25 tới số nguyên gần nhất trong JavaScript?",
+      "answer": {
+        "op1": "rnd(7.25)",
+        "op2": "round(7.25)",
+        "op3": "Math.round(7.25)",
+        "op4": "Math.rnd(7.25)",
+        "ans": "op3"
+      },
+      "topic_id": 2,
+      "exam_id": "JS"
+    },
+    {
+      "question_id": "36",
+      "question": "Nơi bạn có thể đặt code JavaScript trong trang web?",
+      "answer": {
+        "op1": "Chỉ trong phần <head>",
+        "op2": "Bạn có thể đặt trong phần <head> hoặc <body>",
+        "op3": "Chỉ trong phần <body>",
+        "op4": "Chỉ trong phần <style>",
+        "ans": "op2"
+      },
+      "topic_id": 2,
+      "exam_id": "JS"
+    },
+    {
+      "question_id": "37",
+      "question": "Chọn lệnh javascript đúng để xuất ra trang web giá trị biến x?",
+      "answer": {
+        "op1": "windows.write(x);",
+        "op2": "document.innerhtml=x;",
+        "op3": "document.write(x);",
+        "op4": "console.write(x);",
+        "ans": "op3"
+      },
+      "topic_id": 2,
+      "exam_id": "JS"
+    },
+    {
+      "question_id": "38",
+      "question": "Đối tượng trong javascript được tạo ra để làm gì?",
+      "answer": {
+        "op1": "Để việc lập trình thêm rõ ràng",
+        "op2": "Để mô phỏng các biến có nhiều thông tin",
+        "op3": "Cả 2 đều sai",
+        "op4": "Cả 2 đều đúng",
+        "ans": "op4"
+      },
+      "topic_id": 2,
+      "exam_id": "JS"
+    },
+    {
+      "question_id": "39",
+      "question": "Phát biểu nào đúng về đối tượng?",
+      "answer": {
+        "op1": "Trong đối tượng có thể định nghĩa các hàm cho nó . Ví dụ: tien: function() { }",
+        "op2": "Trong hàm của đối tượng, muốn dùng các thuộc tính thì sử dụng từ khóa this. Ví dụ tien: function() { var g = this.gia }",
+        "op3": "Mỗi đối tượng được tạo ra bằng cú pháp {} . Ví dụ var dienthoai = { }",
+        "op4": "Tẩt cả đều đúng",
+        "ans": "op4"
+      },
+      "topic_id": 2,
+      "exam_id": "JS"
+    },
+    {
+      "question_id": "40",
+      "question": "<script> heSoA = Math.round( Math.random()*100); </script>",
+      "answer": {
+        "op1": "Code sai cú pháp",
+        "op2": "Tạo ra 1 số nguyên ngẫu nhiên từ 0 đến 100",
+        "op3": "Tạo ra 1 chuỗi ngẫu nhiên dài tối đa 100 ký tự",
+        "op4": "Biến hesoA sẽ có giá trị là 100",
+        "ans": "op2"
+      },
+      "topic_id": 2,
+      "exam_id": "JS"
+    },
+    {
+      "question_id": "41",
+      "question": "Giao thức là gì?",
+      "answer": {
+        "op1": "Mô hình nhằm để thiết lập các ứng dụng trao đổi thông tin",
+        "op2": "Các quy định để truyền thông tin của một thực thể mạng",
+        "op3": "Một tập các quy tắc và thủ tục mà các thực thể mạng trao đổi thông tin với nhau phải tuân thủ",
+        "op4": "Cả ba câu trên đều sai",
+        "ans": "op3"
+      },
+      "topic_id": 3,
+      "exam_id": "MMT"
+    },
+    {
+      "question_id": "42",
+      "question": "Tầng nào trong mô hình OSI thực hiện gửi tín hiệu lên cáp?",
+      "answer": {
+        "op1": "Physical ",
+        "op2": "Network",
+        "op3": "Data Link",
+        "op4": "Transport",
+        "ans": "op1"
+      },
+      "topic_id": 3,
+      "exam_id": "MMT"
+    },
+    {
+      "question_id": "43",
+      "question": "Mô hình OSI được nghiên cứu bắt đầu từ năm nào?",
+      "answer": {
+        "op1": "1969 ",
+        "op2": "1970",
+        "op3": "1971",
+        "op4": "1981",
+        "ans": "op3"
+      },
+      "topic_id": 3,
+      "exam_id": "MMT"
+    },
+    {
+      "question_id": "44",
+      "question": "Chức năng định tuyến các gói tin xẩy ra ở tầng  nào trong mô hình OSI?",
+      "answer": {
+        "op1": "Data Link ",
+        "op2": "Network",
+        "op3": "Transport",
+        "op4": "Presentation ",
+        "ans": "op2"
+      },
+      "topic_id": 3,
+      "exam_id": "MMT"
+    },
+    {
+      "question_id": "45",
+      "question": "Thiết bị mạng nào sau đây không thể thiếu được trong mạng Internet?",
+      "answer": {
+        "op1": "Hub",
+        "op2": "Switch",
+        "op3": "Router",
+        "op4": "Bridge",
+        "ans": "op3"
+      },
+      "topic_id": 3,
+      "exam_id": "MMT"
+    },
+    {
+      "question_id": "46",
+      "question": "Trên môi trường Windows, lệnh nào sau đây cho biết địa chỉ IP và địa chỉ mạng của một máy tính?",
+      "answer": {
+        "op1": "Ping",
+        "op2": "Ipconfig",
+        "op3": "Hostname",
+        "op4": "Cls",
+        "ans": "op2"
+      },
+      "topic_id": 3,
+      "exam_id": "MMT"
+    },
+    {
+      "question_id": "47",
+      "question": "Việt Nam chính thức gia nhập và Internet bắt đầu vào năm nào?",
+      "answer": {
+        "op1": "1995 ",
+        "op2": "1996",
+        "op3": "1997",
+        "op4": "1998",
+        "ans": "op3"
+      },
+      "topic_id": 3,
+      "exam_id": "MMT"
+    },
+    {
+      "question_id": "48",
+      "question": "DNS là thuật ngữ viết tắt của cụm từ nào?",
+      "answer": {
+        "op1": "Domain Name Server ",
+        "op2": "Domain Name System",
+        "op3": "Domain Naming System",
+        "op4": "Domaining Name System",
+        "ans": "op2"
+      },
+      "topic_id": 3,
+      "exam_id": "MMT"
+    },
+    {
+      "question_id": "49",
+      "question": "Thuật ngữ viết tắt bằng tiếng Anh của mạng diện rộng là gì?",
+      "answer": {
+        "op1": "LAN (Local Area Network)",
+        "op2": "MAN (Metropolitan Area Network)",
+        "op3": "WAN (Wide Area Network)",
+        "op4": "GAN (Global Area Network)",
+        "ans": "op3"
+      },
+      "topic_id": 3,
+      "exam_id": "MMT"
+    },
+    {
+      "question_id": "50",
+      "question": "Thuật ngữ viết tắt bằng tiếng Anh của mạng thành phố là gì?",
+      "answer": {
+        "op1": "LAN (Local Area Network)",
+        "op2": "MAN (Metropolitan Area Network)",
+        "op3": "WAN (Wide Area Network)",
+        "op4": "GAN (Global Area Network)",
+        "ans": "op2"
+      },
+      "topic_id": 3,
+      "exam_id": "MMT"
+    },
+    {
+      "question_id": "51",
+      "question": "Thuật ngữ viết tắt bằng tiếng Anh của mạng toàn cục là gì?",
+      "answer": {
+        "op1": "LAN (Local Area Network)",
+        "op2": "MAN (Metropolitan Area Network)",
+        "op3": "WAN (Wide Area Network)",
+        "op4": "GAN (Global Area Network)",
+        "ans": "op4"
+      },
+      "topic_id": 3,
+      "exam_id": "MMT"
+    },
+    {
+      "question_id": "52",
+      "question": "Ý nghĩa cơ bản nhất của mạng máy tính là gì?",
+      "answer": {
+        "op1": "Nâng cao độ tin cậy của hệ thống máy tính",
+        "op2": "Trao đổi và chia sẻ thông tin",
+        "op3": "Phát triển ứng dụng trên máy tính",
+        "op4": "Nâng cao chất lượng khai thác thông tin",
+        "ans": "op2"
+      },
+      "topic_id": 3,
+      "exam_id": "MMT"
+    },
+    {
+      "question_id": "53",
+      "question": "Địa chỉ mạng được gán tại tầng nào trong mô hình OSI?",
+      "answer": {
+        "op1": "Session",
+        "op2": "Data Link",
+        "op3": "Network ",
+        "op4": "Presentation",
+        "ans": "op3"
+      },
+      "topic_id": 3,
+      "exam_id": "MMT"
+    },
+    {
+      "question_id": "54",
+      "question": "Mô hình OSI là một bộ định chuẩn của tổ chức nào?",
+      "answer": {
+        "op1": "IEEE",
+        "op2": "ISO",
+        "op3": "ANSI ",
+        "op4": "WLAN",
+        "ans": "op2"
+      },
+      "topic_id": 3,
+      "exam_id": "MMT"
+    },
+    {
+      "question_id": "55",
+      "question": "Mô hình OSI được chia ra thành mấy tầng?",
+      "answer": {
+        "op1": "4 tầng",
+        "op2": "5 tầng",
+        "op3": "6 tầng ",
+        "op4": "7 tầng",
+        "ans": "op4"
+      },
+      "topic_id": 3,
+      "exam_id": "MMT"
+    },
+    {
+      "question_id": "56",
+      "question": "Chức năng xác lập chuẩn đầu nối, dây cáp, tốc độ truyền, điện áp,… được thực hiện bởi tầng chức năng nào?",
+      "answer": {
+        "op1": "Transport",
+        "op2": "Network",
+        "op3": "Data Link",
+        "op4": "Phisical ",
+        "ans": "op4"
+      },
+      "topic_id": 3,
+      "exam_id": "MMT"
+    },
+    {
+      "question_id": "57",
+      "question": "Chức năng xác lập chuẩn đầu nối, dây cáp, tốc độ truyền, điện áp,… được thực hiện bởi tầng chức năng nào?",
+      "answer": {
+        "op1": "Transport",
+        "op2": "Network",
+        "op3": "Data Link",
+        "op4": "Phisical ",
+        "ans": "op4"
+      },
+      "topic_id": 3,
+      "exam_id": "MMT"
+    },
+    {
+      "question_id": "58",
+      "question": "Lý do nào để cáp sợi quang hoàn toàn chống được nhiễu gây ra bởi sóng điện từ?",
+      "answer": {
+        "op1": "Do cáp quang có hệ thống chống nhiễu bao bọc xung quanh cáp",
+        "op2": "Do cáp quang được cấu tạo bởi các sợi thuỷ tinh",
+        "op3": "Do tín hiệu truyền trong cáp quang là tín hiệu quang học",
+        "op4": "Do tín hiệu điện truyền trong cáp quang có tần số rất cao ",
+        "ans": "op3"
+      },
+      "topic_id": 3,
+      "exam_id": "MMT"
+    },
+    {
+      "question_id": "59",
+      "question": "Lý do nào để cáp sợi quang hoàn toàn chống được nhiễu gây ra bởi sóng điện từ?",
+      "answer": {
+        "op1": "Do cáp quang có hệ thống chống nhiễu bao bọc xung quanh cáp",
+        "op2": "Do cáp quang được cấu tạo bởi các sợi thuỷ tinh",
+        "op3": "Do tín hiệu truyền trong cáp quang là tín hiệu quang học",
+        "op4": "Do tín hiệu điện truyền trong cáp quang có tần số rất cao ",
+        "ans": "op3"
+      },
+      "topic_id": 3,
+      "exam_id": "MMT"
+    },
+    {
+      "question_id": "60",
+      "question": "Trong mạng dạng tuyến (BUS), Terminator dùng để làm gì?",
+      "answer": {
+        "op1": "Kết nối giữa mạng dạng tuyến với các mạng khác",
+        "op2": "Tránh sự phản xạ của sóng điện từ khi lan truyền đến cuối sợi cáp",
+        "op3": "Tăng cường năng lượng của sóng điện từ",
+        "op4": "Dùng để khử nhiễu trong sóng điện từ",
+        "ans": "op2"
+      },
+      "topic_id": 3,
+      "exam_id": "MMT"
+    }
+  ],
+  "exam": [
+    {
+      "topic_id": 1,
+      "list": "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+      "exam_id": "WORD"
+    },
+    {
+      "topic_id": 2,
+      "list": "21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40",
+      "exam_id": "JS"
+    },
+    {
+      "topic_id": 3,
+      "list": "41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60",
+      "exam_id": "MMT"
+    }
+  ],
+  "result": [
+    {
+      "exam_id": "WORD",
+      "user_id": 2,
+      "listAns": {
+        "1": "op1",
+        "2": "op2",
+        "3": "op3",
+        "4": "op2",
+        "5": "op2",
+        "6": "op1",
+        "7": "op1",
+        "8": "op1",
+        "9": "op3",
+        "10": "op1",
+        "11": "op1",
+        "12": "op2",
+        "13": "op2",
+        "14": "op2",
+        "15": "op3",
+        "16": "op1",
+        "17": "op3",
+        "18": "op1",
+        "19": "op1",
+        "20": "op2"
+      },
+      "score": 6,
+      "id": 1
+    },
+    {
+      "exam_id": "WORD",
+      "user_id": 2,
+      "listAns": {
+        "1": "op1",
+        "2": "op2",
+        "3": "op3",
+        "4": "op1",
+        "5": "op3",
+        "6": "op2",
+        "7": "op1",
+        "8": "op2",
+        "9": "op3",
+        "10": "op1",
+        "11": "op2",
+        "12": "op2",
+        "13": "op3",
+        "14": "op2",
+        "15": "op3",
+        "16": "op1",
+        "17": "op3",
+        "18": "op1",
+        "19": "op1",
+        "20": "op2"
+      },
+      "score": 6,
+      "id": 2
+    },
+    {
+      "exam_id": "JS",
+      "user_id": 3,
+      "listAns": {
+        "21": "op1",
+        "22": "op4",
+        "23": "op2",
+        "24": "op1",
+        "25": "op4",
+        "26": "op4",
+        "27": "op3",
+        "28": "op4",
+        "29": "op2",
+        "30": "op2",
+        "31": "op4",
+        "32": "op2",
+        "33": "op4",
+        "34": "op2",
+        "35": "op3",
+        "36": "op2",
+        "37": "op3",
+        "38": "op4",
+        "39": "op4",
+        "40": "op2"
+      },
+      "score": 8,
+      "id": 3
+    },
+    {
+      "exam_id": "WORD",
+      "listAns": {
+        "1": "op1",
+        "2": "op3",
+        "3": "op3",
+        "4": "op1",
+        "5": "op2",
+        "6": "op3",
+        "7": "op1",
+        "8": "op2",
+        "9": "op3",
+        "10": "op3",
+        "11": "op1",
+        "12": "op4",
+        "13": "op2",
+        "14": "op1",
+        "15": "op1",
+        "16": "op1",
+        "17": "op3",
+        "18": "op2",
+        "19": "op1",
+        "20": "op1"
+      },
+      "score": 4.5,
+      "id": 4
+    },
+    {
+      "exam_id": "MMT",
+      "user_id": 2,
+      "listAns": {
+        "41": "op3",
+        "42": "op1",
+        "43": "op3",
+        "44": "op2",
+        "45": "op3",
+        "46": "op2",
+        "47": "op3",
+        "48": "op2",
+        "49": "op3",
+        "50": "op2",
+        "51": "op4",
+        "52": "op2",
+        "53": "op3",
+        "54": "op2",
+        "55": "op4",
+        "56": "op4",
+        "57": "op1",
+        "58": "op1",
+        "59": "op3",
+        "60": "op2"
+      },
+      "score": 9,
+      "id": 5
+    },
+    {
+      "exam_id": "MMT",
+      "user_id": 3,
+      "listAns": {
+        "41": "op2",
+        "42": "op2",
+        "43": "op3",
+        "44": "op2",
+        "45": "op2",
+        "46": "op1",
+        "47": "op4",
+        "48": "op3",
+        "49": "op1",
+        "50": "op2",
+        "51": "op2",
+        "52": "op3",
+        "53": "op2",
+        "54": "op4",
+        "55": "op1",
+        "56": "op3",
+        "57": "op3",
+        "58": "op3",
+        "59": "op2",
+        "60": "op4"
+      },
+      "score": 2,
+      "id": 6
+    },
+    {
+      "exam_id": "MMT",
+      "user_id": 3,
+      "listAns": {
+        "41": "op3",
+        "42": "op1",
+        "43": "op3",
+        "44": "op2",
+        "45": "op3",
+        "46": "op2",
+        "47": "op3",
+        "48": "op2",
+        "49": "op3",
+        "50": "op2",
+        "51": "op4",
+        "52": "op2",
+        "53": "op3",
+        "54": "op2",
+        "55": "op4",
+        "56": "op4",
+        "57": "op4",
+        "58": "op3",
+        "59": "op3",
+        "60": "op2"
+      },
+      "score": 10,
+      "id": 7
+    },
+    {
+      "exam_id": "JS",
+      "user_id": 3,
+      "listAns": {
+        "21": "op3",
+        "22": "op4",
+        "23": "op4",
+        "24": "op1",
+        "25": "op4",
+        "26": "op3",
+        "27": "op3",
+        "28": "op2",
+        "29": "op2",
+        "30": "op2",
+        "31": "op4",
+        "32": "op2",
+        "33": "op4",
+        "34": "op2",
+        "35": "op3",
+        "36": "op2",
+        "37": "op3",
+        "38": "op4",
+        "39": "op4",
+        "40": "op2"
+      },
+      "score": 10,
+      "id": 8
+    },
+    {
+      "exam_id": "WORD",
+      "user_id": 3,
+      "listAns": {
+        "1": "op1",
+        "2": "op2",
+        "3": "op4",
+        "4": "op1",
+        "5": "op2",
+        "6": "op4",
+        "7": "op1",
+        "8": "op2",
+        "9": "op1",
+        "10": "op3",
+        "11": "op4",
+        "12": "op2",
+        "13": "op4",
+        "14": "op2",
+        "15": "op2",
+        "16": "op1",
+        "17": "op3",
+        "18": "op2",
+        "19": "op1",
+        "20": "op1"
+      },
+      "score": 4,
+      "id": 9
+    },
+    {
+      "exam_id": "WORD",
+      "user_id": null,
+      "listAns": {
+        "1": "op2",
+        "2": "op1",
+        "3": "op2",
+        "4": "op2",
+        "5": "op3",
+        "6": "op3",
+        "7": "op1",
+        "8": "op2",
+        "9": "op3",
+        "10": "op2",
+        "11": "op3",
+        "12": "op2",
+        "13": "op4",
+        "14": "op2",
+        "15": "op2",
+        "16": "op3",
+        "17": "op3",
+        "18": "op2",
+        "19": "op1",
+        "20": "op2"
+      },
+      "score": 3,
+      "id": 10
+    },
+    {
+      "exam_id": "JS",
+      "user_id": 3,
+      "listAns": {
+        "21": "op1",
+        "22": "op2",
+        "23": "op3",
+        "24": "op2",
+        "25": "op4",
+        "26": "op3",
+        "27": "op3",
+        "28": "op1",
+        "29": "op4",
+        "30": "op2",
+        "31": "op3",
+        "32": "op3",
+        "33": "op3",
+        "34": "op3",
+        "35": "op4",
+        "36": "op3",
+        "37": "op2",
+        "38": "op3",
+        "39": "op4",
+        "40": "op1"
+      },
+      "score": 2.5,
+      "id": 11
+    },
+    {
+      "exam_id": "JS",
+      "user_id": 3,
+      "listAns": {
+        "21": "op2",
+        "22": "op4",
+        "23": "op1",
+        "24": "op3",
+        "25": "op3",
+        "26": "op2",
+        "27": "op2",
+        "28": "op2",
+        "29": "op3",
+        "30": "op2",
+        "31": "op3",
+        "32": "op3",
+        "33": "op3",
+        "34": "op3",
+        "35": "op1",
+        "36": "op2",
+        "37": "op2",
+        "38": "op2",
+        "39": "op2",
+        "40": "op2"
+      },
+      "score": 2.5,
+      "id": 12
+    },
+    {
+      "exam_id": "JS",
+      "user_id": 3,
+      "listAns": {
+        "21": "op2",
+        "22": "op4",
+        "23": "op2",
+        "24": "op3",
+        "25": "op4",
+        "26": "op3",
+        "27": "op3",
+        "28": "op2",
+        "29": "op3",
+        "30": "op4",
+        "31": "op2",
+        "32": "op1",
+        "33": "op4",
+        "34": "op2",
+        "35": "op3",
+        "36": "op4",
+        "37": "op2",
+        "38": "op4",
+        "39": "op1",
+        "40": "op2"
+      },
+      "score": 5,
+      "id": 13
+    },
+    {
+      "exam_id": "MMT",
+      "user_id": 3,
+      "listAns": {
+        "41": "op1",
+        "42": "op2",
+        "43": "op3",
+        "44": "op3",
+        "45": "op2",
+        "46": "op4",
+        "47": "op2",
+        "48": "op2",
+        "49": "op4",
+        "50": "op1",
+        "51": "op2",
+        "52": "op2",
+        "53": "op4",
+        "54": "op2",
+        "55": "op2",
+        "56": "op4",
+        "57": "op1",
+        "58": "op1",
+        "59": "op2",
+        "60": "op3"
+      },
+      "score": 2.5,
+      "id": 14
+    },
+    {
+      "exam_id": "MMT",
+      "user_id": 3,
+      "listAns": {
+        "41": "op1",
+        "42": "op3",
+        "43": "op3",
+        "44": "op4",
+        "45": "op3"
+      },
+      "score": 1,
+      "id": 15
+    },
+    {
+      "exam_id": "WORD",
+      "user_id": 3,
+      "listAns": {
+        "1": "op2",
+        "2": "op1",
+        "3": "op1",
+        "4": "op1",
+        "5": "op2",
+        "6": "op1"
+      },
+      "score": 2,
+      "id": 16
+    },
+    {
+      "exam_id": "JS",
+      "user_id": 3,
+      "listAns": {},
+      "score": 0,
+      "id": 17
+    },
+    {
+      "exam_id": "JS",
+      "user_id": 3,
+      "listAns": {
+        "21": "op3",
+        "22": "op2",
+        "23": "op3",
+        "24": "op3",
+        "25": "op2",
+        "26": "op3",
+        "27": "op2",
+        "28": "op4",
+        "29": "op1",
+        "30": "op2",
+        "31": "op2",
+        "32": "op4",
+        "33": "op2",
+        "34": "op1",
+        "35": "op3",
+        "36": "op3",
+        "37": "op4",
+        "38": "op1",
+        "39": "op1",
+        "40": "op1"
+      },
+      "score": 2,
+      "id": 18
+    },
+    {
+      "exam_id": "WORD",
+      "user_id": 3,
+      "listAns": {
+        "1": "op2",
+        "2": "op1",
+        "3": "op2",
+        "4": "op1",
+        "5": "op3",
+        "6": "op3",
+        "7": "op1",
+        "8": "op2",
+        "9": "op1"
+      },
+      "score": 1,
+      "id": 19
+    },
+    {
+      "exam_id": "WORD",
+      "user_id": 3,
+      "listAns": {},
+      "score": 0,
+      "id": 20
+    },
+    {
+      "exam_id": "WORD",
+      "user_id": 3,
+      "listAns": {
+        "1": "op3",
+        "2": "op1",
+        "3": "op3",
+        "4": "op1",
+        "5": "op2",
+        "6": "op3",
+        "7": "op2",
+        "8": "op2",
+        "9": "op1",
+        "10": "op3",
+        "11": "op3",
+        "12": "op3",
+        "13": "op2",
+        "14": "op2",
+        "15": "op2",
+        "16": "op1",
+        "17": "op1",
+        "18": "op3",
+        "19": "op3",
+        "20": "op1"
+      },
+      "score": 2.5,
+      "id": 21
+    },
+    {
+      "exam_id": "WORD",
+      "user_id": 3,
+      "listAns": {
+        "1": "op1",
+        "2": "op1",
+        "3": "op2",
+        "4": "op1",
+        "5": "op2",
+        "6": "op2",
+        "7": "op1",
+        "8": "op2",
+        "9": "op3",
+        "10": "op3",
+        "11": "op2",
+        "12": "op2",
+        "13": "op3",
+        "14": "op2",
+        "15": "op3",
+        "16": "op2",
+        "17": "op1",
+        "18": "op2",
+        "19": "op1",
+        "20": "op1"
+      },
+      "score": 4,
+      "id": 22
+    },
+    {
+      "exam_id": "JS",
+      "user_id": 3,
+      "listAns": {
+        "21": "op2",
+        "22": "op2",
+        "23": "op3",
+        "24": "op3",
+        "25": "op1",
+        "26": "op2",
+        "27": "op2",
+        "28": "op3",
+        "29": "op2",
+        "30": "op1",
+        "31": "op4",
+        "32": "op1",
+        "33": "op2",
+        "34": "op1",
+        "35": "op1",
+        "36": "op3",
+        "37": "op4",
+        "38": "op3",
+        "39": "op4",
+        "40": "op2"
+      },
+      "score": 2,
+      "id": 23
+    },
+    {
+      "exam_id": "WORD",
+      "user_id": 3,
+      "listAns": {
+        "1": "op1",
+        "2": "op2",
+        "3": "op2",
+        "4": "op2",
+        "5": "op2",
+        "6": "op3",
+        "7": "op2",
+        "8": "op2",
+        "9": "op2",
+        "11": "op2",
+        "12": "op3",
+        "13": "op1",
+        "14": "op3",
+        "15": "op1",
+        "16": "op2",
+        "17": "op3",
+        "18": "op3",
+        "19": "op2",
+        "20": "op3"
+      },
+      "score": 2,
+      "id": 24
+    },
+    {
+      "exam_id": "WORD",
+      "user_id": 3,
+      "listAns": {
+        "1": "op2",
+        "2": "op3",
+        "3": "op1",
+        "4": "op2",
+        "5": "op2",
+        "6": "op3",
+        "7": "op2",
+        "8": "op2",
+        "9": "op3",
+        "10": "op2",
+        "11": "op4",
+        "12": "op3",
+        "13": "op2",
+        "14": "op2",
+        "15": "op2",
+        "16": "op1",
+        "17": "op2",
+        "18": "op1",
+        "19": "op1",
+        "20": "op3"
+      },
+      "score": 3.5,
+      "id": 25
+    },
+    {
+      "exam_id": "WORD",
+      "user_id": 3,
+      "listAns": {
+        "1": "op3",
+        "2": "op1",
+        "3": "op2",
+        "4": "op1",
+        "5": "op2",
+        "6": "op4",
+        "7": "op1",
+        "8": "op2",
+        "9": "op2",
+        "10": "op1",
+        "11": "op4",
+        "12": "op2",
+        "13": "op3",
+        "14": "op1",
+        "15": "op1",
+        "16": "op1",
+        "17": "op3",
+        "18": "op4",
+        "19": "op1",
+        "20": "op3"
+      },
+      "score": 5,
+      "id": 26
+    },
+    {
+      "exam_id": "JS",
+      "user_id": 3,
+      "listAns": {
+        "21": "op1",
+        "22": "op4",
+        "23": "op1",
+        "24": "op2",
+        "25": "op4",
+        "26": "op3",
+        "27": "op3",
+        "28": "op2",
+        "29": "op1",
+        "30": "op1",
+        "31": "op4",
+        "32": "op1",
+        "33": "op3",
+        "34": "op2",
+        "35": "op2",
+        "37": "op2",
+        "39": "op1",
+        "40": "op4"
+      },
+      "score": 3.5,
+      "id": 27
+    },
+    {
+      "exam_id": "WORD",
+      "user_id": 3,
+      "listAns": {
+        "1": "op1",
+        "2": "op3",
+        "3": "op2",
+        "4": "op1",
+        "5": "op2",
+        "6": "op3",
+        "7": "op1",
+        "8": "op2",
+        "9": "op2",
+        "10": "op2",
+        "11": "op3",
+        "12": "op2",
+        "13": "op2",
+        "14": "op1",
+        "15": "op2",
+        "16": "op1",
+        "17": "op3",
+        "18": "op1",
+        "19": "op1",
+        "20": "op2"
+      },
+      "score": 5,
+      "id": 28
+    },
+    {
+      "exam_id": "MMT",
+      "user_id": 3,
+      "listAns": {
+        "41": "op3",
+        "42": "op3",
+        "43": "op1",
+        "44": "op3",
+        "45": "op3",
+        "46": "op3",
+        "47": "op3",
+        "48": "op3",
+        "49": "op2",
+        "50": "op4",
+        "51": "op2",
+        "52": "op3",
+        "53": "op2",
+        "54": "op4",
+        "55": "op4",
+        "56": "op2",
+        "57": "op3",
+        "58": "op1",
+        "59": "op4",
+        "60": "op2"
+      },
+      "score": 2.5,
+      "id": 29
+    },
+    {
+      "exam_id": "MMT",
+      "user_id": 3,
+      "listAns": {
+        "41": "op3",
+        "42": "op1",
+        "43": "op3",
+        "44": "op4",
+        "45": "op2",
+        "46": "op3",
+        "47": "op3",
+        "48": "op2",
+        "49": "op3",
+        "50": "op3",
+        "51": "op4",
+        "52": "op2",
+        "53": "op3",
+        "54": "op2",
+        "55": "op4",
+        "56": "op3",
+        "57": "op1",
+        "58": "op2",
+        "59": "op4",
+        "60": "op1"
+      },
+      "score": 5.5,
+      "id": 30
+    },
+    {
+      "exam_id": "MMT",
+      "user_id": 3,
+      "listAns": {
+        "41": "op3",
+        "42": "op3",
+        "43": "op3",
+        "44": "op2",
+        "45": "op1",
+        "46": "op3",
+        "47": "op3",
+        "48": "op3",
+        "49": "op3",
+        "50": "op3",
+        "51": "op3",
+        "52": "op2",
+        "53": "op4",
+        "54": "op4",
+        "55": "op4",
+        "56": "op1",
+        "57": "op3",
+        "58": "op2",
+        "59": "op1",
+        "60": "op2"
+      },
+      "score": 4,
+      "id": 31
+    },
+    {
+      "exam_id": "MMT",
+      "user_id": 3,
+      "listAns": {
+        "41": "op2",
+        "42": "op2",
+        "43": "op4",
+        "44": "op1",
+        "45": "op3",
+        "46": "op3",
+        "47": "op3",
+        "48": "op1",
+        "49": "op3",
+        "50": "op2",
+        "51": "op3",
+        "52": "op3",
+        "53": "op4",
+        "54": "op3",
+        "55": "op3",
+        "56": "op4",
+        "57": "op1",
+        "58": "op2",
+        "59": "op2",
+        "60": "op3"
+      },
+      "score": 2.5,
+      "id": 32
+    },
+    {
+      "exam_id": "WORD",
+      "user_id": null,
+      "listAns": {
+        "1": "op1",
+        "2": "op2",
+        "3": "op3",
+        "4": "op3",
+        "5": "op2",
+        "6": "op3",
+        "7": "op1",
+        "8": "op2",
+        "9": "op3",
+        "10": "op1",
+        "11": "op2",
+        "12": "op2",
+        "13": "op3",
+        "14": "op1",
+        "15": "op1",
+        "16": "op2",
+        "17": "op3",
+        "18": "op2",
+        "19": "op1",
+        "20": "op2"
+      },
+      "score": 5,
+      "id": 33
+    },
+    {
+      "exam_id": "WORD",
+      "user_id": null,
+      "listAns": {
+        "1": "op1",
+        "2": "op2",
+        "3": "op2",
+        "4": "op2",
+        "5": "op2",
+        "6": "op1",
+        "7": "op1",
+        "8": "op2",
+        "9": "op3",
+        "10": "op1",
+        "11": "op3",
+        "12": "op2",
+        "13": "op2",
+        "14": "op1",
+        "15": "op3",
+        "16": "op1",
+        "17": "op3",
+        "18": "op2",
+        "19": "op1",
+        "20": "op2"
+      },
+      "score": 6,
+      "id": 34
+    },
+    {
+      "exam_id": "WORD",
+      "user_id": null,
+      "listAns": {},
+      "score": 0,
+      "id": 35
+    },
+    {
+      "exam_id": "WORD",
+      "user_id": null,
+      "listAns": {
+        "1": "op1",
+        "2": "op3",
+        "3": "op4",
+        "4": "op2",
+        "5": "op2",
+        "6": "op1",
+        "7": "op2",
+        "8": "op2",
+        "9": "op3",
+        "10": "op1",
+        "11": "op3",
+        "12": "op2",
+        "13": "op3",
+        "14": "op1",
+        "15": "op3",
+        "16": "op1",
+        "17": "op3",
+        "18": "op1",
+        "19": "op1",
+        "20": "op2"
+      },
+      "score": 6.5,
+      "id": 36
+    },
+    {
+      "exam_id": "WORD",
+      "user_id": null,
+      "listAns": {
+        "1": "op2",
+        "2": "op3",
+        "3": "op3",
+        "4": "op2",
+        "5": "op2",
+        "6": "op1",
+        "7": "op2",
+        "8": "op2",
+        "9": "op2",
+        "10": "op1",
+        "11": "op4",
+        "12": "op2",
+        "13": "op2",
+        "14": "op1",
+        "15": "op1",
+        "16": "op1",
+        "17": "op3",
+        "18": "op1",
+        "19": "op1",
+        "20": "op2"
+      },
+      "score": 5,
+      "id": 37
+    },
+    {
+      "exam_id": "WORD",
+      "user_id": null,
+      "listAns": {
+        "1": "op2",
+        "2": "op3",
+        "3": "op3",
+        "4": "op1",
+        "5": "op2",
+        "6": "op1",
+        "7": "op1",
+        "8": "op2",
+        "9": "op3",
+        "10": "op4",
+        "11": "op3",
+        "12": "op2",
+        "13": "op3",
+        "14": "op1",
+        "15": "op3",
+        "16": "op1",
+        "17": "op3",
+        "18": "op2",
+        "19": "op1",
+        "20": "op2"
+      },
+      "score": 7,
+      "id": 38
+    },
+    {
+      "exam_id": "WORD",
+      "user_id": null,
+      "listAns": {},
+      "score": 0,
+      "id": 39
+    },
+    {
+      "exam_id": "WORD",
+      "user_id": null,
+      "listAns": {
+        "1": "op2",
+        "2": "op1",
+        "3": "op3",
+        "4": "op2",
+        "5": "op2",
+        "6": "op1",
+        "7": "op4",
+        "8": "op2",
+        "9": "op2",
+        "10": "op2",
+        "11": "op2",
+        "12": "op2",
+        "13": "op2",
+        "14": "op2"
+      },
+      "score": 2.5,
+      "id": 40
+    },
+    {
+      "exam_id": "WORD",
+      "user_id": null,
+      "listAns": {
+        "1": "op1",
+        "2": "op4",
+        "3": "op3",
+        "4": "op1",
+        "5": "op2",
+        "6": "op3"
+      },
+      "score": 1,
+      "id": 41
+    },
+    {
+      "exam_id": "WORD",
+      "user_id": null,
+      "listAns": {
+        "1": "op1",
+        "2": "op2",
+        "3": "op1",
+        "4": "op1",
+        "5": "op1",
+        "6": "op1",
+        "7": "op3",
+        "8": "op2",
+        "9": "op2",
+        "10": "op1",
+        "11": "op2",
+        "12": "op1",
+        "13": "op3",
+        "14": "op1",
+        "15": "op2",
+        "16": "op1",
+        "17": "op3",
+        "18": "op2",
+        "19": "op2",
+        "20": "op3"
+      },
+      "score": 4.5,
+      "id": 42
+    },
+    {
+      "exam_id": "WORD",
+      "user_id": null,
+      "listAns": {
+        "1": "op2",
+        "2": "op2",
+        "3": "op1",
+        "4": "op2",
+        "5": "op2",
+        "6": "op4",
+        "7": "op2",
+        "8": "op2",
+        "9": "op2",
+        "10": "op1",
+        "11": "op1",
+        "12": "op2",
+        "13": "op3",
+        "14": "op3",
+        "15": "op4",
+        "16": "op1",
+        "17": "op2",
+        "18": "op1",
+        "19": "op1",
+        "20": "op2"
+      },
+      "score": 5.5,
+      "id": 43
+    },
+    {
+      "exam_id": "WORD",
+      "user_id": null,
+      "listAns": {
+        "1": "op1",
+        "2": "op2",
+        "3": "op3",
+        "4": "op1"
+      },
+      "score": 1,
+      "id": 44
+    },
+    {
+      "exam_id": "WORD",
+      "user_id": null,
+      "listAns": {
+        "1": "op1",
+        "2": "op2",
+        "3": "op3",
+        "4": "op2",
+        "5": "op3",
+        "6": "op1",
+        "7": "op1",
+        "8": "op1",
+        "9": "op2",
+        "10": "op2",
+        "11": "op2"
+      },
+      "score": 1,
+      "id": 45
+    },
+    {
+      "exam_id": "WORD",
+      "user_id": null,
+      "listAns": {
+        "1": "op2",
+        "2": "op2"
+      },
+      "score": 0.5,
+      "id": 46
+    },
+    {
+      "exam_id": "WORD",
+      "user_id": null,
+      "listAns": {
+        "1": "op1",
+        "2": "op3",
+        "3": "op3",
+        "4": "op1",
+        "5": "op2",
+        "6": "op1",
+        "7": "op2",
+        "8": "op2",
+        "9": "op3",
+        "10": "op1",
+        "11": "op1",
+        "12": "op2",
+        "13": "op2",
+        "14": "op3",
+        "15": "op1",
+        "16": "op4",
+        "17": "op3",
+        "18": "op1",
+        "19": "op2",
+        "20": "op2"
+      },
+      "score": 5,
+      "id": 47
+    },
+    {
+      "exam_id": "WORD",
+      "user_id": null,
+      "listAns": {
+        "1": "op2",
+        "2": "op4",
+        "3": "op4",
+        "4": "op1",
+        "5": "op2",
+        "6": "op3",
+        "7": "op1",
+        "8": "op4",
+        "9": "op3",
+        "10": "op3",
+        "11": "op3",
+        "12": "op2",
+        "13": "op2",
+        "14": "op2",
+        "15": "op1",
+        "16": "op3",
+        "17": "op4",
+        "18": "op3",
+        "19": "op1",
+        "20": "op3"
+      },
+      "score": 2.5,
+      "id": 48
+    },
+    {
+      "exam_id": "WORD",
+      "user_id": null,
+      "listAns": {
+        "1": "op1",
+        "2": "op2",
+        "3": "op3",
+        "4": "op4",
+        "5": "op2",
+        "6": "op2",
+        "7": "op2",
+        "8": "op2",
+        "9": "op1",
+        "10": "op1",
+        "11": "op3",
+        "12": "op2",
+        "13": "op3",
+        "14": "op2",
+        "15": "op2",
+        "16": "op2",
+        "17": "op3",
+        "18": "op1",
+        "19": "op1",
+        "20": "op2"
+      },
+      "score": 4.5,
+      "id": 49
+    },
+    {
+      "exam_id": "WORD",
+      "user_id": null,
+      "listAns": {
+        "1": "op1",
+        "2": "op1",
+        "3": "op3"
+      },
+      "score": 0,
+      "id": 50
+    },
+    {
+      "exam_id": "WORD",
+      "user_id": null,
+      "listAns": {
+        "1": "op1",
+        "2": "op2",
+        "3": "op4",
+        "4": "op1",
+        "5": "op2",
+        "6": "op1"
+      },
+      "score": 2,
+      "id": 51
+    },
+    {
+      "exam_id": "WORD",
+      "user_id": null,
+      "listAns": {
+        "1": "op1",
+        "2": "op2",
+        "3": "op3",
+        "4": "op2",
+        "5": "op2",
+        "6": "op3",
+        "7": "op3",
+        "8": "op2",
+        "9": "op2",
+        "10": "op1",
+        "11": "op2",
+        "12": "op3",
+        "13": "op2",
+        "14": "op4",
+        "15": "op2",
+        "16": "op1",
+        "17": "op2",
+        "18": "op2",
+        "19": "op2"
+      },
+      "score": 2,
+      "id": 52
+    },
+    {
+      "exam_id": "WORD",
+      "user_id": null,
+      "listAns": {
+        "1": "op1",
+        "2": "op1",
+        "3": "op3",
+        "4": "op1",
+        "5": "op2",
+        "6": "op1",
+        "7": "op1",
+        "8": "op1",
+        "9": "op2",
+        "10": "op2",
+        "11": "op1",
+        "12": "op2",
+        "13": "op2",
+        "14": "op2",
+        "15": "op2",
+        "16": "op3",
+        "17": "op3",
+        "18": "op2",
+        "19": "op2",
+        "20": "op1"
+      },
+      "score": 3,
+      "id": 53
+    },
+    {
+      "exam_id": "WORD",
+      "user_id": null,
+      "listAns": {
+        "1": "op1",
+        "2": "op1",
+        "3": "op1",
+        "4": "op1",
+        "5": "op1",
+        "6": "op1",
+        "7": "op1",
+        "8": "op1",
+        "9": "op1",
+        "10": "op1",
+        "11": "op1",
+        "12": "op1",
+        "13": "op1",
+        "14": "op1",
+        "15": "op1",
+        "16": "op1",
+        "17": "op1",
+        "18": "op1",
+        "19": "op1",
+        "20": "op1"
+      },
+      "score": 4,
+      "id": 54
+    },
+    {
+      "exam_id": "WORD",
+      "user_id": null,
+      "listAns": {
+        "1": "op1",
+        "2": "op1",
+        "3": "op1",
+        "4": "op1",
+        "5": "op1",
+        "6": "op1",
+        "7": "op1",
+        "8": "op1",
+        "9": "op1",
+        "10": "op1",
+        "11": "op1",
+        "12": "op1",
+        "13": "op1",
+        "14": "op1",
+        "15": "op1",
+        "16": "op1",
+        "17": "op1",
+        "18": "op1",
+        "19": "op1",
+        "20": "op1"
+      },
+      "score": 4,
+      "id": 55
+    },
+    {
+      "exam_id": "WORD",
+      "user_id": null,
+      "listAns": {
+        "1": "op2",
+        "2": "op2",
+        "3": "op2",
+        "4": "op2",
+        "5": "op2",
+        "6": "op2",
+        "7": "op2",
+        "8": "op2",
+        "9": "op2",
+        "10": "op2",
+        "11": "op2",
+        "12": "op2",
+        "13": "op2",
+        "14": "op2",
+        "15": "op2",
+        "16": "op2",
+        "17": "op2",
+        "18": "op2",
+        "19": "op2",
+        "20": "op2"
+      },
+      "score": 2.5,
+      "id": 56
+    },
+    {
+      "exam_id": "WORD",
+      "user_id": null,
+      "listAns": {
+        "1": "op3",
+        "2": "op2",
+        "3": "op4",
+        "4": "op1",
+        "5": "op2",
+        "6": "op3",
+        "7": "op1",
+        "8": "op4",
+        "9": "op2",
+        "10": "op3",
+        "11": "op3",
+        "12": "op2",
+        "13": "op2",
+        "14": "op1",
+        "15": "op3",
+        "16": "op4",
+        "17": "op1",
+        "18": "op1",
+        "19": "op3",
+        "20": "op4"
+      },
+      "score": 4,
+      "id": 57
+    },
+    {
+      "exam_id": "WORD",
+      "user_id": null,
+      "listAns": {
+        "1": "op1",
+        "2": "op3",
+        "3": "op4",
+        "4": "op2",
+        "5": "op1",
+        "6": "op1",
+        "7": "op3",
+        "8": "op2",
+        "9": "op1",
+        "10": "op3",
+        "11": "op4",
+        "12": "op4",
+        "13": "op1",
+        "14": "op2",
+        "15": "op3",
+        "16": "op3",
+        "17": "op2",
+        "18": "op2",
+        "19": "op1",
+        "20": "op4"
+      },
+      "score": 2,
+      "id": 58
+    },
+    {
+      "exam_id": "WORD",
+      "user_id": null,
+      "listAns": {
+        "1": "op1",
+        "2": "op2",
+        "3": "op3",
+        "4": "op2",
+        "5": "op1",
+        "6": "op4",
+        "7": "op4",
+        "8": "op2",
+        "9": "op1",
+        "10": "op2",
+        "11": "op3",
+        "12": "op4",
+        "13": "op2",
+        "14": "op1",
+        "15": "op4",
+        "16": "op4",
+        "17": "op2",
+        "18": "op2",
+        "19": "op2",
+        "20": "op3"
+      },
+      "score": 2,
+      "id": 59
+    },
+    {
+      "exam_id": "WORD",
+      "user_id": null,
+      "listAns": {
+        "1": "op2",
+        "2": "op3",
+        "3": "op4",
+        "4": "op4",
+        "5": "op4",
+        "6": "op1",
+        "7": "op2",
+        "8": "op4",
+        "9": "op3",
+        "10": "op3",
+        "11": "op1",
+        "12": "op1",
+        "13": "op2",
+        "14": "op3",
+        "15": "op3",
+        "16": "op4",
+        "17": "op1",
+        "18": "op1",
+        "19": "op1",
+        "20": "op2"
+      },
+      "score": 3.5,
+      "id": 60
+    },
+    {
+      "exam_id": "WORD",
+      "user_id": null,
+      "listAns": {
+        "1": "op3",
+        "2": "op3",
+        "3": "op1",
+        "4": "op2",
+        "5": "op3",
+        "6": "op4",
+        "7": "op1",
+        "8": "op2",
+        "9": "op2",
+        "10": "op3",
+        "11": "op3",
+        "12": "op1",
+        "13": "op3",
+        "14": "op4",
+        "15": "op4",
+        "16": "op4",
+        "17": "op1",
+        "18": "op2",
+        "19": "op1",
+        "20": "op1"
+      },
+      "score": 2.5,
+      "id": 61
+    },
+    {
+      "exam_id": "WORD",
+      "user_id": null,
+      "listAns": {
+        "1": "op2",
+        "2": "op4",
+        "3": "op1",
+        "4": "op2",
+        "5": "op3"
+      },
+      "score": 0.5,
+      "id": 62
+    },
+    {
+      "exam_id": "WORD",
+      "user_id": null,
+      "listAns": {
+        "1": "op1",
+        "2": "op3",
+        "3": "op4",
+        "4": "op1",
+        "5": "op2",
+        "6": "op3",
+        "7": "op4",
+        "8": "op2",
+        "9": "op1",
+        "10": "op1",
+        "11": "op2",
+        "12": "op2",
+        "13": "op3",
+        "14": "op1",
+        "15": "op1",
+        "16": "op3",
+        "17": "op3",
+        "18": "op4",
+        "19": "op4",
+        "20": "op2"
+      },
+      "score": 4.5,
+      "id": 63
+    },
+    {
+      "exam_id": "WORD",
+      "user_id": 3,
+      "listAns": {
+        "1": "op1",
+        "2": "op3",
+        "3": "op2",
+        "4": "op4",
+        "5": "op2",
+        "6": "op2",
+        "7": "op1",
+        "8": "op3",
+        "9": "op4",
+        "10": "op4",
+        "11": "op3",
+        "12": "op2",
+        "13": "op2",
+        "14": "op1",
+        "15": "op3",
+        "16": "op4",
+        "17": "op4",
+        "18": "op2",
+        "19": "op1",
+        "20": "op2"
+      },
+      "score": 3.5,
+      "id": 64
+    },
+    {
+      "exam_id": "WORD",
+      "user_id": 3,
+      "listAns": {
+        "1": "op1",
+        "2": "op2",
+        "3": "op3",
+        "4": "op3",
+        "5": "op1",
+        "6": "op1",
+        "7": "op1",
+        "8": "op3",
+        "9": "op4",
+        "10": "op1",
+        "11": "op2",
+        "12": "op3",
+        "13": "op2",
+        "14": "op1",
+        "15": "op3",
+        "16": "op1",
+        "17": "op3",
+        "18": "op2",
+        "19": "op1",
+        "20": "op3"
+      },
+      "score": 3.5,
+      "id": 65
+    },
+    {
+      "exam_id": "WORD",
+      "user_id": 3,
+      "listAns": {
+        "1": "op1",
+        "2": "op2",
+        "3": "op3",
+        "4": "op2",
+        "5": "op2",
+        "6": "op1",
+        "7": "op2",
+        "8": "op2",
+        "9": "op1",
+        "10": "op2",
+        "11": "op3",
+        "12": "op2",
+        "13": "op2",
+        "14": "op1",
+        "15": "op3",
+        "16": "op1",
+        "17": "op3",
+        "18": "op2",
+        "19": "op1",
+        "20": "op2"
+      },
+      "score": 5.5,
+      "id": 66
+    },
+    {
+      "exam_id": "WORD",
+      "user_id": 3,
+      "listAns": {
+        "1": "op3",
+        "2": "op3",
+        "3": "op4",
+        "4": "op1",
+        "5": "op2",
+        "6": "op3",
+        "7": "op4",
+        "8": "op1",
+        "9": "op2",
+        "10": "op1",
+        "11": "op2",
+        "12": "op2",
+        "13": "op3",
+        "14": "op2",
+        "15": "op2",
+        "16": "op1",
+        "17": "op3",
+        "18": "op1",
+        "19": "op1",
+        "20": "op2"
+      },
+      "score": 5.5,
+      "id": 67
+    },
+    {
+      "exam_id": "WORD",
+      "user_id": 3,
+      "listAns": {
+        "1": "op2",
+        "2": "op1",
+        "3": "op3",
+        "4": "op1",
+        "5": "op3",
+        "6": "op1",
+        "7": "op1",
+        "8": "op2",
+        "9": "op3",
+        "10": "op1",
+        "11": "op3",
+        "12": "op2",
+        "13": "op3",
+        "14": "op2",
+        "15": "op4",
+        "16": "op1",
+        "17": "op3",
+        "18": "op1",
+        "19": "op1",
+        "20": "op2"
+      },
+      "score": 5.5,
+      "id": 68
+    },
+    {
+      "exam_id": "JS",
+      "user_id": 3,
+      "listAns": {
+        "21": "op3",
+        "22": "op3",
+        "23": "op1",
+        "24": "op3",
+        "25": "op4",
+        "26": "op3",
+        "27": "op3",
+        "28": "op3",
+        "29": "op3",
+        "30": "op2",
+        "31": "op1",
+        "32": "op4",
+        "33": "op4",
+        "34": "op4",
+        "35": "op2",
+        "36": "op1",
+        "37": "op1",
+        "38": "op1",
+        "39": "op2",
+        "40": "op2"
+      },
+      "score": 3.5,
+      "id": 69
+    },
+    {
+      "exam_id": "MMT",
+      "user_id": 3,
+      "listAns": {
+        "41": "op1",
+        "42": "op2",
+        "43": "op3",
+        "44": "op3",
+        "45": "op4",
+        "46": "op1",
+        "47": "op3",
+        "48": "op3",
+        "49": "op2",
+        "50": "op1",
+        "51": "op4",
+        "52": "op2",
+        "53": "op2",
+        "54": "op2",
+        "55": "op3",
+        "56": "op2",
+        "57": "op3",
+        "58": "op4",
+        "59": "op1",
+        "60": "op2"
+      },
+      "score": 3,
+      "id": 70
+    },
+    {
+      "exam_id": "JS",
+      "user_id": 3,
+      "listAns": {
+        "21": "op2",
+        "22": "op3",
+        "23": "op2",
+        "24": "op3",
+        "25": "op1",
+        "26": "op3",
+        "27": "op2",
+        "28": "op3",
+        "29": "op4",
+        "30": "op2",
+        "31": "op1",
+        "32": "op3",
+        "33": "op3",
+        "34": "op1",
+        "35": "op2",
+        "36": "op2",
+        "37": "op3",
+        "38": "op4",
+        "39": "op4",
+        "40": "op1"
+      },
+      "score": 3,
+      "id": 71
+    },
+    {
+      "exam_id": "WORD",
+      "user_id": 3,
+      "listAns": {
+        "1": "op1",
+        "2": "op2",
+        "3": "op1",
+        "4": "op1",
+        "5": "op2",
+        "6": "op2",
+        "7": "op1",
+        "8": "op2",
+        "9": "op2",
+        "10": "op1",
+        "11": "op3",
+        "12": "op2",
+        "13": "op3",
+        "14": "op1",
+        "15": "op3",
+        "16": "op1",
+        "17": "op3",
+        "18": "op1",
+        "19": "op1",
+        "20": "op2"
+      },
+      "score": 7,
+      "id": 72
+    },
+    {
+      "exam_id": "WORD",
+      "user_id": 3,
+      "listAns": {
+        "1": "op1",
+        "2": "op3",
+        "3": "op2",
+        "4": "op2",
+        "5": "op1",
+        "6": "op3",
+        "7": "op1",
+        "8": "op2",
+        "9": "op3",
+        "10": "op4",
+        "11": "op1",
+        "12": "op2",
+        "13": "op3",
+        "14": "op1",
+        "15": "op3",
+        "16": "op1",
+        "17": "op3",
+        "18": "op2",
+        "19": "op1",
+        "20": "op2"
+      },
+      "score": 6,
+      "id": 73
+    },
+    {
+      "exam_id": "WORD",
+      "user_id": 3,
+      "listAns": {
+        "1": "op1",
+        "2": "op2",
+        "3": "op4",
+        "4": "op1",
+        "5": "op2",
+        "6": "op1",
+        "7": "op2",
+        "8": "op2",
+        "9": "op1",
+        "10": "op3",
+        "11": "op2",
+        "12": "op2",
+        "13": "op3",
+        "14": "op2",
+        "15": "op2",
+        "16": "op4",
+        "17": "op1",
+        "18": "op1",
+        "19": "op2",
+        "20": "op1"
+      },
+      "score": 4,
+      "id": 74
+    },
+    {
+      "exam_id": "JS",
+      "user_id": 3,
+      "listAns": {
+        "21": "op1",
+        "22": "op3",
+        "23": "op4",
+        "24": "op3",
+        "25": "op3",
+        "26": "op3",
+        "27": "op3",
+        "28": "op2",
+        "29": "op1",
+        "30": "op3",
+        "31": "op4",
+        "32": "op4",
+        "33": "op1",
+        "34": "op2",
+        "35": "op3",
+        "36": "op4",
+        "37": "op2",
+        "38": "op4",
+        "39": "op4",
+        "40": "op2"
+      },
+      "score": 5,
+      "id": 75
+    },
+    {
+      "exam_id": "MMT",
+      "user_id": 3,
+      "listAns": {
+        "41": "op1",
+        "42": "op1",
+        "43": "op3",
+        "44": "op2",
+        "45": "op1",
+        "46": "op4",
+        "47": "op2",
+        "48": "op4",
+        "49": "op3",
+        "50": "op1",
+        "51": "op4",
+        "52": "op3",
+        "53": "op2",
+        "54": "op2",
+        "55": "op2",
+        "56": "op1",
+        "57": "op3",
+        "58": "op4",
+        "59": "op2",
+        "60": "op2"
+      },
+      "score": 3.5,
+      "id": 76
+    },
+    {
+      "exam_id": "WORD",
+      "user_id": null,
+      "listAns": {
+        "1": "op1",
+        "2": "op3",
+        "3": "op4",
+        "4": "op3",
+        "5": "op2",
+        "6": "op4",
+        "7": "op3",
+        "8": "op3",
+        "9": "op2",
+        "10": "op1",
+        "11": "op4",
+        "12": "op3",
+        "13": "op2",
+        "14": "op4",
+        "15": "op2",
+        "16": "op2",
+        "17": "op3",
+        "18": "op1",
+        "19": "op3",
+        "20": "op3"
+      },
+      "score": 1.5,
+      "id": 77
+    },
+    {
+      "exam_id": "WORD",
+      "user_id": null,
+      "listAns": {
+        "1": "op2",
+        "2": "op3",
+        "3": "op4",
+        "4": "op3",
+        "5": "op4",
+        "6": "op3",
+        "7": "op3",
+        "8": "op2",
+        "9": "op3",
+        "10": "op4",
+        "11": "op2",
+        "12": "op2",
+        "13": "op3",
+        "14": "op3",
+        "15": "op4",
+        "16": "op3",
+        "17": "op3",
+        "18": "op2",
+        "19": "op1",
+        "20": "op2"
+      },
+      "score": 4,
+      "id": 78
+    },
+    {
+      "exam_id": "WORD",
+      "user_id": null,
+      "listAns": {
+        "1": "op3",
+        "2": "op1",
+        "3": "op4",
+        "4": "op1",
+        "5": "op2",
+        "6": "op2",
+        "7": "op3",
+        "8": "op2",
+        "9": "op2",
+        "10": "op4",
+        "11": "op1",
+        "12": "op2",
+        "13": "op3",
+        "14": "op1",
+        "15": "op2",
+        "16": "op2",
+        "17": "op1",
+        "18": "op4",
+        "19": "op1",
+        "20": "op2"
+      },
+      "score": 5.5,
+      "id": 79
+    },
+    {
+      "exam_id": "WORD",
+      "user_id": 3,
+      "listAns": {
+        "1": "op2",
+        "2": "op1",
+        "3": "op4",
+        "4": "op1",
+        "5": "op2",
+        "6": "op2",
+        "7": "op3",
+        "8": "op3",
+        "9": "op2",
+        "10": "op1",
+        "11": "op4",
+        "12": "op4",
+        "13": "op3",
+        "14": "op2",
+        "15": "op3",
+        "16": "op3",
+        "17": "op3",
+        "18": "op1",
+        "19": "op1",
+        "20": "op2"
+      },
+      "score": 4,
+      "id": 80
+    },
+    {
+      "exam_id": "WORD",
+      "user_id": 3,
+      "listAns": {
+        "1": "op1",
+        "2": "op3",
+        "3": "op4",
+        "4": "op2",
+        "5": "op2",
+        "6": "op1",
+        "7": "op2",
+        "8": "op2",
+        "9": "op2",
+        "10": "op2",
+        "11": "op1",
+        "12": "op2",
+        "13": "op2",
+        "14": "op4",
+        "15": "op3",
+        "16": "op1",
+        "17": "op3",
+        "18": "op2",
+        "19": "op1",
+        "20": "op2"
+      },
+      "score": 5,
+      "id": 81
+    },
+    {
+      "exam_id": "WORD",
+      "user_id": 3,
+      "listAns": {
+        "1": "op2",
+        "2": "op3",
+        "3": "op1",
+        "4": "op1",
+        "5": "op2",
+        "6": "op3",
+        "7": "op1",
+        "8": "op2",
+        "9": "op3",
+        "10": "op3",
+        "11": "op2",
+        "12": "op2",
+        "13": "op3",
+        "14": "op1",
+        "15": "op3",
+        "16": "op1",
+        "17": "op3",
+        "18": "op1",
+        "19": "op1",
+        "20": "op2"
+      },
+      "score": 7,
+      "id": 82
+    },
+    {
+      "exam_id": "JS",
+      "user_id": 3,
+      "listAns": {
+        "21": "op2",
+        "22": "op4",
+        "23": "op2",
+        "24": "op3",
+        "25": "op4",
+        "26": "op3",
+        "27": "op3",
+        "28": "op2",
+        "29": "op1",
+        "30": "op1",
+        "31": "op4",
+        "32": "op3",
+        "33": "op2",
+        "34": "op2",
+        "35": "op3",
+        "37": "op3",
+        "38": "op4",
+        "39": "op4",
+        "40": "op2"
+      },
+      "score": 6,
+      "id": 83
+    },
+    {
+      "exam_id": "WORD",
+      "user_id": 3,
+      "listAns": {
+        "1": "op2",
+        "4": "op3",
+        "6": "op1"
+      },
+      "score": 0.5,
+      "id": 84
+    },
+    {
+      "exam_id": "WORD",
+      "user_id": 3,
+      "listAns": {
+        "1": "op1",
+        "2": "op3",
+        "3": "op1",
+        "4": "op2",
+        "5": "op4",
+        "6": "op2",
+        "7": "op2",
+        "8": "op2",
+        "9": "op1",
+        "10": "op3",
+        "11": "op4",
+        "12": "op2",
+        "13": "op3",
+        "14": "op1",
+        "15": "op1",
+        "16": "op1",
+        "17": "op3",
+        "18": "op2",
+        "19": "op4",
+        "20": "op1"
+      },
+      "score": 3.5,
+      "id": 85
+    },
+    {
+      "exam_id": "WORD",
+      "user_id": 3,
+      "listAns": {
+        "1": "op2",
+        "5": "op2",
+        "10": "op1"
+      },
+      "score": 0.5,
+      "id": 86
+    },
+    {
+      "exam_id": "WORD",
+      "user_id": 3,
+      "listAns": {
+        "1": "op1",
+        "4": "op2",
+        "9": "op3"
+      },
+      "score": 0.5,
+      "id": 87
+    },
+    {
+      "exam_id": "MMT",
+      "user_id": 3,
+      "listAns": {},
+      "score": 0,
+      "id": 88
+    }
+  ]
+}

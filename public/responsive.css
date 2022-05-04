@@ -1,0 +1,16 @@
+/* PC */
+@media (min-width: 1024px){
+    
+}
+
+/* TABLET */
+@media (min-width: 740PX) and (min-width: 1023px){
+    
+}
+
+/* MOBILE */
+@media (max-width: 740px){
+    .grid__col-2{
+        display: none;
+    }
+}
