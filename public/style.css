@@ -1011,6 +1011,7 @@
 .modal__alert-login-question {
     display: flex;
     font-size: 1.4rem;
+    cursor: pointer;
     color: var(--text);
 }
 

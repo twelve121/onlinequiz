@@ -14,7 +14,7 @@ function Exam() {
     const [userData, setUserData] = useState([])
     const [resultData, setResultData] = useState([])
     const [topicsData, setTopicsData] = useState([])
-    const [time] = useState(Date.now() + 10000)
+    const [time] = useState(Date.now() + 6*10*10000)
 
     let navigate = useNavigate();
 
