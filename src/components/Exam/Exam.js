@@ -110,6 +110,15 @@ function Exam() {
                 console.log('Thing was not saved to the database.');
             }
         }
+        else{
+            await axios.post("http://localhost:3333/result", {
+                    'exam_id': id,
+                    'user_id': userId[0] || null,
+                    'listAns': inputAnswer,
+                    'score': score
+                })
+                    .then(() => { return navigate(`/result/${maxResultId}`) })
+        }
 
     }
     var questionNumber = 1
