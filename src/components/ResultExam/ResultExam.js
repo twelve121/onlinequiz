@@ -41,26 +41,43 @@ function ResultExam() {
     console.log(Question)
 
     // useEffect(() => {
+    // Question.forEach((value, index) => {
+    //     ansValues.forEach((ans, index2) => {
+    //         if (index === index2) {
+    //             const pushData = {
+    //                 question_id: value.question_id,
+    //                 question: value.question,
+    //                 answer: value.answer,
+    //                 chosen: ans,
+    //                 questionScore: (value.answer.ans === ans)?'0.5':'0'
+    //             }
+    //             listQuest.push(pushData)
+    //         }
+
+    //     })
+    // })
+
     Question.forEach((value, index) => {
-        ansValues.forEach((ans, index2) => {
-            if (index === index2) {
-                const pushData = {
-                    question_id: value.question_id,
-                    question: value.question,
-                    answer: value.answer,
-                    chosen: ans,
-                    questionScore: (value.answer.ans === ans)?'0.5':'0'
+        checkResult.forEach((value2, index2) => {
+            for (var key in value2.listAns) {
+                if (value.question_id === key) {
+                    const pushData = {
+                        question_id: value.question_id,
+                        question: value.question,
+                        answer: value.answer,
+                        chosen: value2.listAns[key],
+                        questionScore: (value.answer.ans === value2.listAns[key]) ? '0.5' : '0'
+                    }
+                    listQuest.push(pushData)
                 }
-                listQuest.push(pushData)
             }
-            
         })
     })
-    // })
-    const listResult = listQuest.filter((element, index) => index === listQuest.findIndex(elem => elem.question_id === element.question_id && elem.chosen === element.chosen))
-    console.log(listResult)
-    var questionNumber = 1
+    let listResult = listQuest.filter((ele, ind) => ind === listQuest.findIndex(elem => elem.question === ele.question && elem.chosen === ele.chosen))
+
+    const listResultAns = listResult.filter(item => item.chosen !== '' && item)
     var numberQ = 1
+    console.log(listResult)
     return (
         <div>
             <Header />
@@ -75,13 +92,13 @@ function ResultExam() {
                                         <h2 className="testing__header-title">Kết quả</h2>
                                     </div>
                                     <div className="grid__col-6-2">
-                                        {listResult.map(q =>
+                                        {listQuest.map(q =>
                                             <div className="testing__question-wrapper">
                                                 <div className="testing__question">
                                                     <a name={q.question_id}></a>
-                                                    <h3 className="testing__question-num-header" >Câu hỏi {questionNumber++}</h3>
+                                                    <h3 className="testing__question-num-header" >Câu hỏi {q.question_id}</h3>
                                                     <div className="testing__question-properties">
-                                                        <div className={q.questionScore==='0'?"testing__question-mark-wrong":"testing__question-mark"}>Đạt điểm: {q.questionScore}</div>
+                                                        <div className={q.questionScore === '0' ? "testing__question-mark-wrong" : "testing__question-mark"}>Đạt điểm: {q.questionScore}</div>
                                                         <div className="testing__question-flag">
                                                             <i className="testing__question-icon ti-close"></i>
                                                             Đặt cờ
@@ -117,11 +134,6 @@ function ResultExam() {
                                                         )}
                                                     </form>
                                                 </div>
-                                                <div className="testing__question" style={{ backgroundDolor: '#dbdbdb', marginTop: '10px' }}>
-                                                    <div >
-                                                        <label className="testing__question-answer-label">Đáp án đúng: {q.answer.ans}</label>
-                                                    </div>
-                                                </div>
                                             </div>
                                         )}
                                     </div>
@@ -134,10 +146,10 @@ function ResultExam() {
                                                         <p style={{ fontSize: '1.6rem', height: '40px', lineHeight: '40px', marginBottom: '0' }}>Tổng điểm là: {s.score} điểm</p>
                                                     </div>
                                                 )}
-                                                {Question.map(q =>
+                                                {listQuest.map(q =>
                                                     <div className="testing__question-id">
                                                         <div className="testing__question-id-num">
-                                                            <a href={'#' + q.question_id} style={{ textDecoration: 'none' }}>{numberQ++}</a>
+                                                            <a href={'#' + q.question_id} style={{ textDecoration: 'none' }}>{q.question_id}</a>
                                                         </div>
                                                     </div>
                                                 )}

@@ -19,9 +19,6 @@ function Menu() {
             <nav className="menu">
                 <ul className="menu-category">
                     <li className="menu-list">
-                        {/* <a href="index.html" ">
-                            
-                        </a> */}
                         <Link
                             className="menu-list__link"
                             to={`/`}
@@ -31,10 +28,16 @@ function Menu() {
                         </Link>
                     </li>
                     <li className="menu-list">
-                        <a href="contact.html" className="menu-list__link">
+                        {/* <a href="contact.html" className="menu-list__link">
+                            Liên hệ
+                        </a> */}
+                        <Link
+                            className="menu-list__link"
+                            to={`/contact`}
+                        >
                             <i className="menu-icon ti-location-pin"></i>
                             Liên hệ
-                        </a>
+                        </Link>
                     </li>
                 </ul>
                 <ul className="menu__course">

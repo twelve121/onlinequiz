@@ -88,7 +88,7 @@ function ModalRegister(props) {
                     <div className="modal__alert-login-button">
                         <button className="modal__alert-login-link" onClick={handleSignup}>Đăng ký</button>
                     </div>
-                    <a href="" className="modal__alert-login-question">Bạn chưa có tài khoản?</a>
+                    <a className="modal__alert-login-question" onClick={()=>{setOpenModalRegister(false);setOpenModalLogin(true)}}>Bạn chưa đã tài khoản?</a>
                 </div>
             </div>
         </div>

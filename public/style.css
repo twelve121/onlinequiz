@@ -699,7 +699,7 @@
 
 /* FOOTER */
 .footer {
-    height: 90px;
+    max-height: 90px;
     width: 100%;
     border-top: 1px solid #ebebeb;
     margin-top: 40px;

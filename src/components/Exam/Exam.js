@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react'
-import Countdown from 'react-countdown'
 import Header from '../Header'
 import Menu from '../Menu'
 import { useParams, useNavigate, Redirect } from "react-router-dom";
 import axios from 'axios';
+import Timer from './Timer';
 
 function Exam() {
     let params = useParams();
@@ -14,6 +14,7 @@ function Exam() {
     const [userData, setUserData] = useState([])
     const [resultData, setResultData] = useState([])
     const [topicsData, setTopicsData] = useState([])
+    const [time] = useState(Date.now() + 10000)
 
     let navigate = useNavigate();
 
@@ -82,7 +83,7 @@ function Exam() {
     })
     console.log(score)
 
-    const handleSubmit = async () => {
+    const handleCountDownSubmit = async () => {
         const id = params.examId;
         await axios.post("http://localhost:3333/result", {
             'exam_id': id,
@@ -92,6 +93,24 @@ function Exam() {
         })
             // return navigate("/");
             .then(() => { return navigate(`/result/${maxResultId}`) })
+    }
+
+    const handleSubmit = async () => {
+        const id = params.examId;
+        if (chosen.length < Question.length) {
+            if (window.confirm('Bài thi chưa được hoàn thành, bạn có muốn nộp không?')) {
+                await axios.post("http://localhost:3333/result", {
+                    'exam_id': id,
+                    'user_id': userId[0] || null,
+                    'listAns': inputAnswer,
+                    'score': score
+                })
+                    .then(() => { return navigate(`/result/${maxResultId}`) })
+            } else {
+                console.log('Thing was not saved to the database.');
+            }
+        }
+
     }
     var questionNumber = 1
     return (
@@ -114,7 +133,7 @@ function Exam() {
                                             <div className="testing__question-wrapper">
                                                 <div className="testing__question">
                                                     <a name={q.question_id}></a>
-                                                    <h3 className="testing__question-num-header" >Câu hỏi {questionNumber++}</h3>
+                                                    <h3 className="testing__question-num-header" >Câu hỏi {q.question_id}</h3>
                                                     <div className="testing__question-properties">
                                                         <div className="testing__question-mark">Đạt điểm 0.5</div>
                                                         <div className="testing__question-flag">
@@ -164,13 +183,12 @@ function Exam() {
                                                         <div className="count-down__icon">
                                                             <i className="ti-alarm-clock"></i>
                                                         </div>
-                                                        {/* <div id="quiz-time-left"></div> */}
-                                                        <Countdown
+                                                        {/* <Countdown
                                                             className="quiz-time-left"
-                                                            date={Date.now() + 6*20*10000}
-                                                            // zeroPadTime={0}
+                                                            date={Date.now() + 6 * 20 * 10000}
                                                             onComplete={handleSubmit}
-                                                        />
+                                                        /> */}
+                                                        <Timer handleCountDownSubmit={handleCountDownSubmit} time={time} />
                                                     </div>
                                                 </div>
                                                 {Question.map(q =>
@@ -186,8 +204,6 @@ function Exam() {
                                                 value="Kết thúc bài kiểm tra"
                                                 className="testing__question-extra-submit"
                                                 onClick={handleSubmit} />
-
-
                                         </div>
                                     </div>
                                 </div>

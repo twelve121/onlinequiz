@@ -31,6 +31,7 @@ function ModalLogin(props) {
                 setCheck(true);
                 alert("success");
                 sessionStorage.setItem("user", user.user_email);
+                navigate(`/`);
                 setOpenModalLogin(false);
                 window.location.reload(false)
             }
@@ -72,7 +73,7 @@ function ModalLogin(props) {
                     <div className="modal__alert-login-button">
                         <button className="modal__alert-login-link" onClick={handleLogin}>Đăng nhập</button>
                     </div>
-                    <a className="modal__alert-login-question" onClick={()=>{setOpenModalRegister(true)}}>Bạn chưa có tài khoản?</a>
+                    <a className="modal__alert-login-question" onClick={()=>{setOpenModalLogin(false);setOpenModalRegister(true)}}>Bạn chưa có tài khoản?</a>
                 </div>
             </div>
         </div>
