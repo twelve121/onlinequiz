@@ -660,13 +660,35 @@
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 }
 
-.testing__question-id-num a {
+.testing__question-id-num-correct {
     display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 1.4rem;
+    height: 50px;
+    flex-wrap: wrap;
+    background-color: #24c862;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.testing__question-id-num-correct > a {
     padding: 8px;
     color: var(--text);
     margin: auto;
     text-align: center;
     font-weight: 600;
+    width: 100%;
+}
+
+
+.testing__question-id-num a {
+    padding: 8px;
+    color: var(--text);
+    margin: auto;
+    text-align: center;
+    font-weight: 600;
+    width: 100%;
 }
 
 .testing__question-extra-submit {

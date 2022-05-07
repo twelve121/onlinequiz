@@ -8,8 +8,6 @@ function ResultExam() {
     let params = useParams();
     const [resultData, setResultData] = useState([])
     const [questionData, setQuestionData] = useState([])
-    const [listQuest, setListQuest] = useState([])
-    const [checked, setChecked] = useState(false)
 
     useEffect(() => {
         axios.get('http://localhost:3333/result').then(
@@ -37,47 +35,17 @@ function ResultExam() {
         ansValues = Object.values(listAnswer[index])
     });
     console.log(ansValues)
+
     const Question = questionData.filter(item => item.exam_id === checkResult[0].exam_id)
-    console.log(Question)
 
-    // useEffect(() => {
-    // Question.forEach((value, index) => {
-    //     ansValues.forEach((ans, index2) => {
-    //         if (index === index2) {
-    //             const pushData = {
-    //                 question_id: value.question_id,
-    //                 question: value.question,
-    //                 answer: value.answer,
-    //                 chosen: ans,
-    //                 questionScore: (value.answer.ans === ans)?'0.5':'0'
-    //             }
-    //             listQuest.push(pushData)
-    //         }
+    const questionCheck = Question.filter(item => ansKeys.includes(item.question_id))
+    questionCheck.map((item, index)=>{item.chosen = ansValues[index]; item.questionScore = item.answer.ans === ansValues[index]?'0.5':'0'})
+    const questionCheck2 = Question.filter(item => !ansKeys.includes(item.question_id))
+    questionCheck2.map(item=>{item.chosen = ''; item.questionScore='0'})
 
-    //     })
-    // })
-
-    Question.forEach((value, index) => {
-        checkResult.forEach((value2, index2) => {
-            for (var key in value2.listAns) {
-                if (value.question_id === key) {
-                    const pushData = {
-                        question_id: value.question_id,
-                        question: value.question,
-                        answer: value.answer,
-                        chosen: value2.listAns[key],
-                        questionScore: (value.answer.ans === value2.listAns[key]) ? '0.5' : '0'
-                    }
-                    listQuest.push(pushData)
-                }
-            }
-        })
-    })
-    let listResult = listQuest.filter((ele, ind) => ind === listQuest.findIndex(elem => elem.question === ele.question && elem.chosen === ele.chosen))
-
-    const listResultAns = listResult.filter(item => item.chosen !== '' && item)
+    const listQuest = [].concat(questionCheck ,questionCheck2).sort((a, b) => {return a.question_id - b.question_id;})
     var numberQ = 1
-    console.log(listResult)
+    console.log(Question)
     return (
         <div>
             <Header />
@@ -146,9 +114,10 @@ function ResultExam() {
                                                         <p style={{ fontSize: '1.6rem', height: '40px', lineHeight: '40px', marginBottom: '0' }}>Tổng điểm là: {s.score} điểm</p>
                                                     </div>
                                                 )}
+                                                {/* .testing__question-id-num-correct */}
                                                 {listQuest.map(q =>
                                                     <div className="testing__question-id">
-                                                        <div className="testing__question-id-num">
+                                                        <div className={q.questionScore === '0' ? "testing__question-id-num" : "testing__question-id-num-correct"}>
                                                             <a href={'#' + q.question_id} style={{ textDecoration: 'none' }}>{q.question_id}</a>
                                                         </div>
                                                     </div>
